@@ -5,48 +5,48 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	char c;
-	printf("Введите символы 'a' or 'b' or 'цифру':");
-	scanf("%c", &c); //считывание с консоли
+	printf("Р’РІРµРґРёС‚Рµ СЃРёРјРІРѕР»С‹ 'a' or 'b' or 'С†РёС„СЂСѓ':");
+	scanf("%c", &c); //СЃС‡РёС‚С‹РІР°РЅРёРµ СЃ РєРѕРЅСЃРѕР»Рё
 	switch (c)
 	{
 	case 'a':
-		printf("Это буква a\n");
+		printf("Р­С‚Рѕ Р±СѓРєРІР° a\n");
 		break;
 	case 'b':
-		printf("Это буква b\n");
+		printf("Р­С‚Рѕ Р±СѓРєРІР° b\n");
 		break;
 	case '1':
-		printf("Это цифра 1\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 1\n");
 		break;
 	case '2':
-		printf("Это цифра 2\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 2\n");
 		break;
 	case '3':
-		printf("Это цифра 3\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 3\n");
 		break;
 	case '4':
-		printf("Это цифра 4\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 4\n");
 		break;
 	case '5':
-		printf("Это цифра 5\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 5\n");
 		break;
 	case '6':
-		printf("Это цифра 6\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 6\n");
 		break;
 	case '7':
-		printf("Это цифра 7\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 7\n");
 		break;
 	case '8':
-		printf("Это цифра 8\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 8\n");
 		break;
 	case '9':
-		printf("Это цифра 9\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 9\n");
 		break;
 	case '0':
-		printf("Это цифра 0\n");
+		printf("Р­С‚Рѕ С†РёС„СЂР° 0\n");
 		break;
 	default:
-		printf("Неизвестный символ");
+		printf("РќРµРёР·РІРµСЃС‚РЅС‹Р№ СЃРёРјРІРѕР»");
 	}
 	return 0;
 }
