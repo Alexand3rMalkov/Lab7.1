@@ -6,7 +6,7 @@ int main()
 	setlocale(LC_ALL, "rus");
 	char c;
 	printf("Введите символы 'a' or 'b' or 'цифру':");
-	scanf("%c", &c); //считывание с консоли
+	scanf("%c", &c); 
 	switch (c)
 	{
 	case 'a':
